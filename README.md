@@ -1,7 +1,7 @@
 # Simulaci-n-II
 ### [Ejercicio_1.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/54495a1304da958de8367dfb2a4fbcdc1807898d/Ejercicio%201)
   ### [Ejercicio_2.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/54f5b49dea38d2c3f6a296ff7349989238fe44f8/Ejercicio%202)
-  ### [Simulacion_Ejercicio_3.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/fb86950faadca55663f05fa93ea0c8a3819293c1/Simulacion_Ejercicio_3.ipynb)
+  ### [Ejercicio_3.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/aadc584803b5db172a33ac36db68e8137cfa8696/Ejercicio%203)
   ### [Simulacion_Ejercicio_4.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/6e7a8b515c50156fdbe415ed7c4aa5de17fec858/Simulacion_Ejercicio_4.ipynb)
   ### [Simulacion_Ejercicio_5.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/81b8dcebf9029df662d2ed227e3f99ea44988eb1/Simulacion_Ejercicio_5.ipynb)
   ### [Simulacion_Ejercicio_6.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/68fc667632167cd52ae59afa5c5bc56a3961d605/Simulacion_Ejercicio_6.ipynb)
