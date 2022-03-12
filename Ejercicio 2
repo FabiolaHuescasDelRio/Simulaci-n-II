@@ -1,0 +1,94 @@
+Ejercicio 2:
+a) Simular un sorteo de los colores blanco, negro, rojo, azul y verde.
+import random
+print("De los siguientes colores escoge uno xD")
+print("   Blanco (Bl)")
+print("   Negro (Ne)")
+print("   Rojo (Ro)")
+print("   Azul (Az)")
+print("   Verde (Ve)")
+c = str(input(">> "))
+print("")
+w = random.random()
+if w < 0.2:
+  if c = = 'Bl': #Blanco
+    print ("Blanco, ¡Ganaste!")
+  else:
+    print ("Blanco, ¡Perdiste! xD")
+elif w > 0.2 and w < 0.4:
+  if c = = 'Ne': #Negro
+    print ("Negro, ¡Ganaste!")
+  else:
+    print ("Negro, ¡Perdiste! xD")
+elif w > 0.4 and w < 0.6:
+  if c = = 'Ro': #Rojo
+    print ("Rojo, ¡Ganaste!")
+  else:
+    print ("Rojo, ¡Perdiste! xD")
+elif w > 0.6 and w < 0.8:
+  if c = = 'Az': #Azul
+    print ("Azul, ¡Ganaste!")
+  else:
+    print ("Azul, ¡Perdiste! xD")
+else:
+  if c = = 'Ve': #Verde
+    print ("Verde, ¡Ganaste!")
+  else:
+    print ("Verde, ¡Perdiste! xD")
+b) Simular 5 sorteos con sustitución.
+import random
+print("ok, ahora deberás adivinar que colores saldrán xd")
+lis=[]
+print("")
+print("   Blanco (Bl)")
+print("   Negro (Ne)")
+print("   Rojo (Ro)")
+print("   Azul (Az)")
+print("   Verde (Ve)")
+print("")
+print ("ok, tendrás que escribir que colores saldran y en que orden, por ejemplo, rojo, rojo, azul, blanco, negro (Ro, Ro, Az, Bl, Ne), capicci? Unicamente 5")
+l = 0
+while l < 5:
+  f = str(input(">> "))
+  lis.append(f)
+  l = l+1
+m = 0
+reptar = 0
+while m < 5:
+  t = random.random()
+  if t < 0.2:
+    if lis[m] = = 'Bl': #Blanco
+      print ("Blanco, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Blanco, ¡Perdiste! xD")
+  elif t > 0.2 and t < 0.4:
+    if lis[m] = = 'Ne': #Negro
+      print ("Negro, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Negro, ¡Perdiste! xD")
+  elif t > 0.4 and t < 0.6:
+    if lis[m] = = 'Ro': #Rojo
+      print ("Rojo, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Rojo, ¡Perdiste! xD")
+  elif t > 0.6 and t < 0.8:
+    if lis[m] = = 'Az': #Azul
+      print ("Azul, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Azul, ¡Perdiste! xD")
+  else:
+    if lis[m] = = 'Ve': #Verde
+      print ("Verde, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Verde, ¡Perdiste! xD")
+  m = m+1
+print("")
+print ("Veamos cuantos adivinaste xd")
+print("")
+print ("Adivinaste: ",reptar," Nada mal :y")
+print("")
