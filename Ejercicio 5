@@ -1,0 +1,49 @@
+# a)
+import random 
+print ("Si se tiene, para cada punto aleatorio:") 
+print ("X_i=1 si cae dentro del círculo y") 
+print ("X_i=0 si cae fuera del círculo") 
+print ("E[X_i] = pi/4 y V[X_i] = (pi/4)*(1 - pi/4)") 
+print ("Si definimos la variable Zn = (x_1 + x_2 + ... + x_n)/N") 
+print ("Ahora calcularemos E[Z_N] y V[Z_N]") 
+N = int(input("¿Cuántos dardos se lanzarán? "))#Número de dardos que se lanzan 
+def p_Taylor(n): 
+  x_i = 0 
+  for i in range(n): 
+    x_1 = random.random() 
+    y_1 = random.random() 
+    z = ((x_1**2)+(y_1**2))**(1/2) 
+    if z < 1: 
+      x_i = x_i+1 
+  p = 4*(x_i/n) 
+  return p 
+Pp = p_Taylor(N) #E[Z_N] 
+var = (16*Pp*(1-Pp))/N #var[Z_N] 
+print ("E[Z_N] = ",Pp," o bien, pi") 
+print ("V[Z_N] = ",var," o bien, (4*pi-pi^2)/N")
+
+# b)
+import random 
+import math 
+print ("Si se tiene, para cada punto aleatorio: ")
+print ("X_i = 1 si cae dentro del círculo y") 
+print ("X_i = 0 si cae fuera del círculo") 
+print ("E[X_i] = pi/4 y V[X_i] = (pi/4)*(1 - pi/4)") 
+print ("Si definimos la variable Zn = (x_1 + x_2 + ... + x_n)/N") 
+print ("Ahora calcularemos E[Z_N] y V[Z_N]") 
+N = float(input("¿Cuál será el error? (ej. 0.01): ")) #Número de dardos que se lanzan 
+def error(n): 
+  error = 10 
+  m = 0 
+  Nn = 1 
+  while error>n: 
+    x_1 = random.random() 
+    y_1 = random.random() 
+    z = ((x_1**2)+(y_1**2))**(1/2) 
+    if z < 1: 
+      m = m+1 
+    pi = 4*(m/Nn) 
+    error=(((pi-math.pi)**2)**(1/2))/math.pi 
+    Nn=Nn+1 
+  return Nn 
+print ("El número de iteraciones necesarias para que el error sea de",N,"es = ",error(N)) 
