@@ -1,0 +1,20 @@
+import random
+print ("Si se tiene, para cada punto aleatorio:")
+print ("X_i = 1 si cae dentro del círculo y")
+print ("X_i = 0 si cae fuera del círculo")
+print ("Ahora estimaremos la E[X_i] y V[X_i]")
+N = int(input("¿Cuántos dardos se lanzarán? ")) #Número de dardos que se lanzan 
+def p_Taylor(n):
+  x_i = 0 
+  for i in range(n): 
+    x_1 = random.random() 
+    y_1 = random.random() 
+    z = ((x_1**2)+(y_1**2))**(1/2) 
+    if z < 1: 
+      x_i = x_i+1 
+  p = (x_i/n) 
+  return p 
+Pp = p_Taylor(N) #E[X_i] 
+var = Pp*(1-Pp) #var[X_i] 
+print ("E[X_i] = ",Pp," o bien, pi/4") 
+print ("V[X_i] = ",var," o bien, (4*pi-pi^2)/16") 
