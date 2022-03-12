@@ -1,0 +1,27 @@
+import random 
+import matplotlib.pyplot as plt 
+import numpy as np 
+b = int(input("Inserte el valor de 'b' para la elipse (no menor que 0): "))
+x = np.linspace(0, 1, 100)
+y = np.sqrt((1-(x**2))*b**2) 
+N = int(input("¿Cuántos dardos se lanzarán? ")) 
+m = 0 
+count = 0 
+fig = plt.figure(1, figsize = (10, 10)) 
+plt.plot(x, y, color = 'red', markersize = 1) 
+while count < N:
+  x_1 = random.random()
+  y_1 = random.uniform(0, b)
+  plt.scatter(x_1, y_1, s = 20, c = 'blue') 
+  z = (x_1**2)+((y_1**2)/(b**2)) 
+  if z < 1:
+    m = m+1 
+  count = count+1 
+plt.title("Estimación de pi ")
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.grid()
+plt.show()
+pi = 4*(m/N) #valor de pi
+print ("el valor de pi es: ",pi)
+print ("")
