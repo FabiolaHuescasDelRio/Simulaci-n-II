@@ -1,5 +1,5 @@
 # Simulaci-n-II
-### [Simulacion_Ejercicio_1.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/f84838493ef0cd2bf1414c3f2cee127f8699a6f8/Simulacion_Ejercicio_1.ipynb)
+### [Simulacion_Ejercicio_1.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/54495a1304da958de8367dfb2a4fbcdc1807898d/Ejercicio%201)
   ### [Simulacion_Ejercicio_2.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/1bb930d342b5ba1a693e8dbe2d0b9e2ff1c59c57/Simulacion_Ejercicio_2.ipynb)
   ### [Simulacion_Ejercicio_3.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/fb86950faadca55663f05fa93ea0c8a3819293c1/Simulacion_Ejercicio_3.ipynb)
   ### [Simulacion_Ejercicio_4.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/6e7a8b515c50156fdbe415ed7c4aa5de17fec858/Simulacion_Ejercicio_4.ipynb)
