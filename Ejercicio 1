@@ -1,0 +1,60 @@
+Ejercicio 1:
+a) Usar la función random( ) para simular 1 volado.
+import random
+x = random.random() 
+a = str(input("Escoge, ¿aguila o sol? "))
+print("")
+if x < 0.5:
+  if a = = 'aguila':
+    print ("Aguila, ¡Ganaste!")
+  else:
+    print ("Aguila, ¡Perdiste! xD")
+else:
+  if a = = 'sol':
+    print ("Sol, ¡Ganaste!")
+  else:
+    print ("Sol, ¡Perdiste! xD")
+b) Usar la función random( ) para simular 1000 volados.
+import randomx = random.random() 
+b = str(input("Escoge, ¿aguila o sol? "))
+print("")
+count = 0 
+sol = 0 
+aguila = 0 
+while count < 1000:
+  y = random.random()
+  if y < 0.5:
+    sol = sol+1 
+  else:
+    aguila = aguila+1 
+  count = count+1 
+if sol < aguila:
+  if b = = 'aguila':
+    print ("Aguila, ¡Ganaste!")
+  else:
+    print ("Aguila, ¡Perdiste! xD")
+else:
+  if b = = 'sol':
+    print ("Sol, ¡Ganaste!")
+  else:
+    print ("Sol, ¡Perdiste! xD")
+c) Determinar de b) la probabilidad de que ocurra "sol" en un volado.
+import randomx = random.random() 
+b = str(input("Escoge, ¿aguila o sol? "))
+print("")
+count = 0 
+sol = 0 
+aguila = 0 
+while count < 1000:
+  y = random.random()
+  if y < 0.5:
+    sol = sol+1 
+  else:
+    aguila = aguila+1 
+  count = count+1 
+PA = aguila/count 
+PS = sol/count 
+print("")
+print("La probabilidad de obtener aguila era de: ",PA)
+print("La probabilidad de obtener sol era de: ",PS)
+print("")
