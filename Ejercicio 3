@@ -1,0 +1,31 @@
+Ejercicio 3:
+Graficar las salidas obtenidas en la Tarea 1
+
+import matplotlib.pyplot as plt
+N = int(input("¿Cuántos dardos se lanzarán? "))#Numero de dardos que se lanzan
+def pi_Taylor(n):
+  L = []
+  m = 0
+  for i in range(n):
+    x_1 = random.random()
+    y_1 = random.random()
+    z = ((x_1**2)+(y_1**2))**(1/2)
+    if z < 1:
+        m = m+1
+    pi = 4*(m/(i+1))
+    L.append(pi) 
+  plt.plot(L, color = "red", markersize=1)
+  plt.xlabel("Iteraciones")
+  plt.ylabel("Estimación")
+  plt.grid()
+  plt.show()
+pi_Taylor(N)
+f = str(input("¿Quieres ver tablas comparativas? Y/N "))
+if f = = 'Y':
+  g = int(input("¿Cuántas? "))
+  h = 0
+  while h < g:
+    pi_Taylor(N) 
+    h = h+1
+else:
+  print ("ok")
