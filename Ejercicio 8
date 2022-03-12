@@ -1,0 +1,35 @@
+# 1. 
+  def riemann(f, a, b, n): 
+  delta_x = (b-a)/n 
+  i = 0 
+  suma = 0 
+  a_1 = a 
+  while a_1 < b: 
+    x_i = a+i*delta_x 
+    suma = suma+f(x_i)*delta_x 
+    a_1 = a_1+delta_x 
+    i = i+1 
+  return suma 
+def f(x): 
+  return (1-(x**2))**(3/2) 
+print ("El valor de la integral es: ",riemann(f, 0, 1, 200000)) 
+
+# 2.
+import math 
+def riemann(f, a, b, n): 
+  # f es la función 
+  # a y b son los limites del eje x para graficar la funcion f 
+  # n es el numero de rectangulos que calcularemos 
+  delta_x = (b-a)/n 
+  i = 0 
+  suma = 0 
+  a_1 = a 
+  while a_1 < b: 
+    x_i = a+i*delta_x 
+    suma = suma+f(x_i)*delta_x 
+    a_1 = a_1+delta_x 
+    i=i+1 
+  return suma 
+def f(x): 
+  return math.exp(x+(x**2)) 
+print ("El valor de la integral es: ",riemann(f, -2, 2, 2000000)) 
