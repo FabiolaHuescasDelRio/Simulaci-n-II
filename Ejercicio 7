@@ -1,0 +1,94 @@
+# 1.
+import random
+print("Escoge un color")
+print("   Blanco (Bl)")
+print("   Negro (Ne)")
+print("   Rojo (Ro)")
+print("   Azul (Az)")
+print("   Verde (Ve)")
+c = str(input(">> "))
+print("")
+w = random.random()
+if w < 0.2:
+  if c = = 'Bl': #Blanco
+    print ("Blanco, ¡Ganaste!")
+  else:
+    print ("Blanco, ¡Perdiste!")
+elif w > 0.2 and w < 0.4:
+  if c = = 'Ne': #Negro
+    print ("Negro, ¡Ganaste!")
+  else:
+    print ("Negro, ¡Perdiste!")
+elif w > 0.4 and w < 0.6:
+  if c = = 'Ro': #Rojo
+    print ("Rojo, ¡Ganaste!")
+  else:
+    print ("Rojo, ¡Perdiste!")
+elif w > 0.6 and w < 0.8:
+  if c = = 'Az': #Azul
+    print ("Azul, ¡Ganaste!")
+  else:
+    print ("Azul, ¡Perdiste!")
+else:
+  if c = = 'Ve': #Verde
+    print ("Verde, ¡Ganaste!")
+  else:
+    print ("Verde, ¡Perdiste!")
+  
+# 2.
+import random
+print("Adivina los colores que saldrán")
+lis=[]
+print("")
+print("   Blanco (Bl)")
+print("   Negro (Ne)")
+print("   Rojo (Ro)")
+print("   Azul (Az)")
+print("   Verde (Ve)")
+print("")
+print ("Tendrás que escribir que colores saldran y en que orden, por ejemplo, rojo, rojo, azul, blanco, negro (Ro, Ro, Az, Bl, Ne), Unicamente 5")
+l = 0
+while l < 5:
+  f = str(input(">> "))
+  lis.append(f)
+  l = l+1
+m = 0
+reptar = 0
+while m < 5:
+  t = random.random()
+  if t < 0.2:
+    if lis[m] = = 'Bl': #Blanco
+      print ("Blanco, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Blanco, ¡Perdiste!")
+  elif t > 0.2 and t < 0.4:
+    if lis[m] = = 'Ne': #Negro
+      print ("Negro, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Negro, ¡Perdiste!")
+  elif t > 0.4 and t < 0.6:
+    if lis[m] = = 'Ro': #Rojo
+      print ("Rojo, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Rojo, ¡Perdiste!")
+  elif t > 0.6 and t < 0.8:
+    if lis[m] = = 'Az': #Azul
+      print ("Azul, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Azul, ¡Perdiste!")
+  else:
+    if lis[m] = = 'Ve': #Verde
+      print ("Verde, ¡Ganaste!")
+      reptar = reptar+1
+    else:
+      print ("Verde, ¡Perdiste!")
+  m = m+1
+print("")
+print ("Veamos cuantos adivinaste")
+print("")
+print ("Adivinaste: ",reptar," Casi :y")
+print("")
