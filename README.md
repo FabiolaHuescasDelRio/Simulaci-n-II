@@ -12,6 +12,6 @@
   ### [Simulacion_Ejercicio_11.ipynb]
   ### [Simulacion_Ejercicio_12.ipynb]
   ### [Tarea_1.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/595349f6a59fc9c7aa723775d01fac9b29aa0d3a/Tarea%201)
-  ### [Tarea_2.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/cbe397839d2750ed012deeb3384ff54ffa4a3d7d/Tarea_2.ipynb)
+  ### [Tarea_2.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/a1685027233adbba81037be1dc61fb3a3f0feca5/Tarea%202)
   ### [Tarea_3.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/09918a817dbe7df87c68292299e4a3d6be8fd354/Tarea_3.ipynb)
   ### [Tarea_4.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/f739dc05ff3ac91eb7a97fbb317c1e4f963c9c6c/Tarea_4.ipynb)
