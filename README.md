@@ -8,7 +8,7 @@
   ### [Ejercicio_7.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/da31e0fed9d0d93af720ca652a02730ce37c19ab/Ejercicio%207)
   ### [Ejercicio_8.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/b54d611ba866c41a87175ac21094887998fc9d4a/Ejercicio%208)
   ### [Ejercicio_9.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/069725d20de1b7149d9e03275175c1f5f44bd033/Ejercicio%209)
-  ### [Simulacion_Ejercicio_10.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/df431684ec609d207fe2ee5bf9d0c8047bd990cf/Simulacion_Ejercicio_10.ipynb)
+  ### [Ejercicio_10.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/3583dc0d29f8d7d2f91fa0bfdb4ddd0594c75b90/Ejercicio%2010)
   ### [Simulacion_Ejercicio_11.ipynb]
   ### [Simulacion_Ejercicio_12.ipynb]
   ### [Tarea_1.ipynb](https://github.com/BlaeckHardt/Simulacion_2/blob/de5057424b0d18344eaf0ecac2396d5db7867673/Tarea_1.ipynb)
