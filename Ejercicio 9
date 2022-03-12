@@ -1,0 +1,38 @@
+# 1.
+import random 
+import numpy as np 
+print ("Elegir una ciudad de la lista.") 
+Lista = ['Rome','New York','London','Berlin','Moskov', 'Los Angeles','Paris','Madrid','Tokio','Toronto'] 
+print ("Primero, nuestra lista es la siguiente: ") 
+print (Lista) 
+print ("Ahora la mezclaremos...") 
+random.shuffle(Lista) 
+print ("La lista mazclada es: ") 
+print (Lista) 
+random.shuffle(Lista) 
+print ("Ahora elegiremos una ciudad al azar") 
+Ciudad = random.choice(Lista) 
+print ("La ciudad elegida es - ", Ciudad) 
+print ("Ahora juguemos... ',:v") 
+a = str(input("Escribe una ciudad al azar ")) 
+random.shuffle(Lista) 
+Ciudad = random.choice(Lista)
+if Ciudad = = a: 
+  print ("¡Adivinaste!, la ciudad elegida es: ", Ciudad) 
+else: 
+  print ("Te equivocaste, la ciudad elegida era: ", Ciudad) 
+# 2.
+import random 
+import numpy as np 
+print ("Elegir al azar tres ciudades después de una mezcla.") 
+Lista = ['Rome','New York','London','Berlin','Moskov', 'Los Angeles','Paris','Madrid','Tokio','Toronto'] 
+print ("Primero, nuestra lista es la siguiente: ") 
+print (Lista) 
+print ("Ahora la mezclaremos") 
+random.shuffle(Lista) 
+print ("La lista mezclada es: ") 
+print (Lista) 
+random.shuffle(Lista) 
+print ("Ahora elegiremos 3 ciudades al azar") 
+Ciudad = random.sample(Lista, 3) 
+print ("Las ciudades elegidas son - ", Ciudad) 
