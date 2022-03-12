@@ -1,0 +1,107 @@
+# triangular()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.triangular(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# betavariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.betavariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# expovariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.expovariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# gammavariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.gammavariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# lognormvariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.lognormvariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# normalvariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.normalvariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# vonmisesvariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.vonmisesvariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# paretovariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.paretovariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
+
+# weibullvariate()
+import random 
+import matplotlib.pyplot as plt 
+nums = [] 
+mu = 100 
+sigma = 50 
+for i in range(10000): 
+  temp = random.weibullvariate(mu, sigma) 
+  nums.append(temp) 
+plt.hist(nums, bins = 200) 
+plt.show() 
