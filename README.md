@@ -12,4 +12,5 @@
   ### [Tarea_1.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/595349f6a59fc9c7aa723775d01fac9b29aa0d3a/Tarea%201)
   ### [Tarea_2.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/a1685027233adbba81037be1dc61fb3a3f0feca5/Tarea%202)
   ### [Tarea_3.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/daa30b79c098c5c99b0705cf16e25717fc1e68aa/Tarea%203)
+  ### [Tarea_Gráfica de escalones.ipynb](https://github.com/FabiolaHuescasDelRio/Simulaci-n-II/blob/daa30b79c098c5c99b0705cf16e25717fc1e68aa/Tarea%203)
  
